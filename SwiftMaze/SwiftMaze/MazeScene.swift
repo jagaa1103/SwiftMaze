@@ -31,6 +31,5 @@ class MazeScene: SKScene, SKPhysicsContactDelegate{
             self.physicsWorld.gravity = CGVectorMake(CGFloat((data?.acceleration.x)!) * 10, CGFloat((data?.acceleration.y)!) * 10)
             
         }
-        
     }
 }
