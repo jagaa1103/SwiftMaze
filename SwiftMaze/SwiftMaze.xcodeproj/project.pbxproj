@@ -7,66 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1156D2861C735248009571EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156D2851C735248009571EE /* AppDelegate.swift */; };
-		1156D2881C735248009571EE /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 1156D2871C735248009571EE /* art.scnassets */; };
-		1156D28A1C735248009571EE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156D2891C735248009571EE /* GameViewController.swift */; };
-		1156D28D1C735248009571EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1156D28B1C735248009571EE /* Main.storyboard */; };
-		1156D28F1C735248009571EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1156D28E1C735248009571EE /* Assets.xcassets */; };
-		1156D2921C735248009571EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1156D2901C735248009571EE /* LaunchScreen.storyboard */; };
-		1156D29D1C735249009571EE /* SwiftMazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156D29C1C735249009571EE /* SwiftMazeTests.swift */; };
-		1156D2A81C735249009571EE /* SwiftMazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156D2A71C735249009571EE /* SwiftMazeUITests.swift */; };
+		11B825931C73530A00BD32B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B825921C73530A00BD32B0 /* AppDelegate.swift */; };
+		11B825971C73530A00BD32B0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B825961C73530A00BD32B0 /* GameViewController.swift */; };
+		11B8259A1C73530B00BD32B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B825981C73530B00BD32B0 /* Main.storyboard */; };
+		11B8259C1C73530B00BD32B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B8259B1C73530B00BD32B0 /* Assets.xcassets */; };
+		11B8259F1C73530B00BD32B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B8259D1C73530B00BD32B0 /* LaunchScreen.storyboard */; };
+		11B825AA1C73530B00BD32B0 /* SwiftMazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B825A91C73530B00BD32B0 /* SwiftMazeTests.swift */; };
+		11B825B51C73530B00BD32B0 /* SwiftMazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B825B41C73530B00BD32B0 /* SwiftMazeUITests.swift */; };
+		11B825C71C73552100BD32B0 /* MazeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B825C61C73552100BD32B0 /* MazeScene.swift */; };
+		11B825CD1C735AD900BD32B0 /* MazeScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 11B825CC1C735AD900BD32B0 /* MazeScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1156D2991C735249009571EE /* PBXContainerItemProxy */ = {
+		11B825A61C73530B00BD32B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1156D27A1C735248009571EE /* Project object */;
+			containerPortal = 11B825871C73530A00BD32B0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1156D2811C735248009571EE;
+			remoteGlobalIDString = 11B8258E1C73530A00BD32B0;
 			remoteInfo = SwiftMaze;
 		};
-		1156D2A41C735249009571EE /* PBXContainerItemProxy */ = {
+		11B825B11C73530B00BD32B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1156D27A1C735248009571EE /* Project object */;
+			containerPortal = 11B825871C73530A00BD32B0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1156D2811C735248009571EE;
+			remoteGlobalIDString = 11B8258E1C73530A00BD32B0;
 			remoteInfo = SwiftMaze;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1156D2821C735248009571EE /* SwiftMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1156D2851C735248009571EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1156D2871C735248009571EE /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		1156D2891C735248009571EE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		1156D28C1C735248009571EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1156D28E1C735248009571EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1156D2911C735248009571EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1156D2931C735248009571EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1156D2981C735249009571EE /* SwiftMazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1156D29C1C735249009571EE /* SwiftMazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMazeTests.swift; sourceTree = "<group>"; };
-		1156D29E1C735249009571EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1156D2A31C735249009571EE /* SwiftMazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1156D2A71C735249009571EE /* SwiftMazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMazeUITests.swift; sourceTree = "<group>"; };
-		1156D2A91C735249009571EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B8258F1C73530A00BD32B0 /* SwiftMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B825921C73530A00BD32B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11B825961C73530A00BD32B0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		11B825991C73530B00BD32B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11B8259B1C73530B00BD32B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11B8259E1C73530B00BD32B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11B825A01C73530B00BD32B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B825A51C73530B00BD32B0 /* SwiftMazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B825A91C73530B00BD32B0 /* SwiftMazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMazeTests.swift; sourceTree = "<group>"; };
+		11B825AB1C73530B00BD32B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B825B01C73530B00BD32B0 /* SwiftMazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B825B41C73530B00BD32B0 /* SwiftMazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMazeUITests.swift; sourceTree = "<group>"; };
+		11B825B61C73530B00BD32B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B825C61C73552100BD32B0 /* MazeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MazeScene.swift; sourceTree = "<group>"; };
+		11B825CC1C735AD900BD32B0 /* MazeScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MazeScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1156D27F1C735248009571EE /* Frameworks */ = {
+		11B8258C1C73530A00BD32B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1156D2951C735249009571EE /* Frameworks */ = {
+		11B825A21C73530B00BD32B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1156D2A01C735249009571EE /* Frameworks */ = {
+		11B825AD1C73530B00BD32B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,54 +78,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1156D2791C735248009571EE = {
+		11B825861C73530A00BD32B0 = {
 			isa = PBXGroup;
 			children = (
-				1156D2841C735248009571EE /* SwiftMaze */,
-				1156D29B1C735249009571EE /* SwiftMazeTests */,
-				1156D2A61C735249009571EE /* SwiftMazeUITests */,
-				1156D2831C735248009571EE /* Products */,
+				11B825911C73530A00BD32B0 /* SwiftMaze */,
+				11B825A81C73530B00BD32B0 /* SwiftMazeTests */,
+				11B825B31C73530B00BD32B0 /* SwiftMazeUITests */,
+				11B825901C73530A00BD32B0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1156D2831C735248009571EE /* Products */ = {
+		11B825901C73530A00BD32B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1156D2821C735248009571EE /* SwiftMaze.app */,
-				1156D2981C735249009571EE /* SwiftMazeTests.xctest */,
-				1156D2A31C735249009571EE /* SwiftMazeUITests.xctest */,
+				11B8258F1C73530A00BD32B0 /* SwiftMaze.app */,
+				11B825A51C73530B00BD32B0 /* SwiftMazeTests.xctest */,
+				11B825B01C73530B00BD32B0 /* SwiftMazeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1156D2841C735248009571EE /* SwiftMaze */ = {
+		11B825911C73530A00BD32B0 /* SwiftMaze */ = {
 			isa = PBXGroup;
 			children = (
-				1156D2851C735248009571EE /* AppDelegate.swift */,
-				1156D2871C735248009571EE /* art.scnassets */,
-				1156D2891C735248009571EE /* GameViewController.swift */,
-				1156D28B1C735248009571EE /* Main.storyboard */,
-				1156D28E1C735248009571EE /* Assets.xcassets */,
-				1156D2901C735248009571EE /* LaunchScreen.storyboard */,
-				1156D2931C735248009571EE /* Info.plist */,
+				11B825921C73530A00BD32B0 /* AppDelegate.swift */,
+				11B825961C73530A00BD32B0 /* GameViewController.swift */,
+				11B825981C73530B00BD32B0 /* Main.storyboard */,
+				11B8259B1C73530B00BD32B0 /* Assets.xcassets */,
+				11B8259D1C73530B00BD32B0 /* LaunchScreen.storyboard */,
+				11B825A01C73530B00BD32B0 /* Info.plist */,
+				11B825C61C73552100BD32B0 /* MazeScene.swift */,
+				11B825CC1C735AD900BD32B0 /* MazeScene.sks */,
 			);
 			path = SwiftMaze;
 			sourceTree = "<group>";
 		};
-		1156D29B1C735249009571EE /* SwiftMazeTests */ = {
+		11B825A81C73530B00BD32B0 /* SwiftMazeTests */ = {
 			isa = PBXGroup;
 			children = (
-				1156D29C1C735249009571EE /* SwiftMazeTests.swift */,
-				1156D29E1C735249009571EE /* Info.plist */,
+				11B825A91C73530B00BD32B0 /* SwiftMazeTests.swift */,
+				11B825AB1C73530B00BD32B0 /* Info.plist */,
 			);
 			path = SwiftMazeTests;
 			sourceTree = "<group>";
 		};
-		1156D2A61C735249009571EE /* SwiftMazeUITests */ = {
+		11B825B31C73530B00BD32B0 /* SwiftMazeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1156D2A71C735249009571EE /* SwiftMazeUITests.swift */,
-				1156D2A91C735249009571EE /* Info.plist */,
+				11B825B41C73530B00BD32B0 /* SwiftMazeUITests.swift */,
+				11B825B61C73530B00BD32B0 /* Info.plist */,
 			);
 			path = SwiftMazeUITests;
 			sourceTree = "<group>";
@@ -131,13 +134,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1156D2811C735248009571EE /* SwiftMaze */ = {
+		11B8258E1C73530A00BD32B0 /* SwiftMaze */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1156D2AC1C735249009571EE /* Build configuration list for PBXNativeTarget "SwiftMaze" */;
+			buildConfigurationList = 11B825B91C73530B00BD32B0 /* Build configuration list for PBXNativeTarget "SwiftMaze" */;
 			buildPhases = (
-				1156D27E1C735248009571EE /* Sources */,
-				1156D27F1C735248009571EE /* Frameworks */,
-				1156D2801C735248009571EE /* Resources */,
+				11B8258B1C73530A00BD32B0 /* Sources */,
+				11B8258C1C73530A00BD32B0 /* Frameworks */,
+				11B8258D1C73530A00BD32B0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,69 +148,70 @@
 			);
 			name = SwiftMaze;
 			productName = SwiftMaze;
-			productReference = 1156D2821C735248009571EE /* SwiftMaze.app */;
+			productReference = 11B8258F1C73530A00BD32B0 /* SwiftMaze.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1156D2971C735249009571EE /* SwiftMazeTests */ = {
+		11B825A41C73530B00BD32B0 /* SwiftMazeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1156D2AF1C735249009571EE /* Build configuration list for PBXNativeTarget "SwiftMazeTests" */;
+			buildConfigurationList = 11B825BC1C73530B00BD32B0 /* Build configuration list for PBXNativeTarget "SwiftMazeTests" */;
 			buildPhases = (
-				1156D2941C735249009571EE /* Sources */,
-				1156D2951C735249009571EE /* Frameworks */,
-				1156D2961C735249009571EE /* Resources */,
+				11B825A11C73530B00BD32B0 /* Sources */,
+				11B825A21C73530B00BD32B0 /* Frameworks */,
+				11B825A31C73530B00BD32B0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1156D29A1C735249009571EE /* PBXTargetDependency */,
+				11B825A71C73530B00BD32B0 /* PBXTargetDependency */,
 			);
 			name = SwiftMazeTests;
 			productName = SwiftMazeTests;
-			productReference = 1156D2981C735249009571EE /* SwiftMazeTests.xctest */;
+			productReference = 11B825A51C73530B00BD32B0 /* SwiftMazeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1156D2A21C735249009571EE /* SwiftMazeUITests */ = {
+		11B825AF1C73530B00BD32B0 /* SwiftMazeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1156D2B21C735249009571EE /* Build configuration list for PBXNativeTarget "SwiftMazeUITests" */;
+			buildConfigurationList = 11B825BF1C73530B00BD32B0 /* Build configuration list for PBXNativeTarget "SwiftMazeUITests" */;
 			buildPhases = (
-				1156D29F1C735249009571EE /* Sources */,
-				1156D2A01C735249009571EE /* Frameworks */,
-				1156D2A11C735249009571EE /* Resources */,
+				11B825AC1C73530B00BD32B0 /* Sources */,
+				11B825AD1C73530B00BD32B0 /* Frameworks */,
+				11B825AE1C73530B00BD32B0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1156D2A51C735249009571EE /* PBXTargetDependency */,
+				11B825B21C73530B00BD32B0 /* PBXTargetDependency */,
 			);
 			name = SwiftMazeUITests;
 			productName = SwiftMazeUITests;
-			productReference = 1156D2A31C735249009571EE /* SwiftMazeUITests.xctest */;
+			productReference = 11B825B01C73530B00BD32B0 /* SwiftMazeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1156D27A1C735248009571EE /* Project object */ = {
+		11B825871C73530A00BD32B0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Enkhjargal Gansukh";
 				TargetAttributes = {
-					1156D2811C735248009571EE = {
+					11B8258E1C73530A00BD32B0 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = YBFAQB2XKJ;
 					};
-					1156D2971C735249009571EE = {
+					11B825A41C73530B00BD32B0 = {
 						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = 1156D2811C735248009571EE;
+						TestTargetID = 11B8258E1C73530A00BD32B0;
 					};
-					1156D2A21C735249009571EE = {
+					11B825AF1C73530B00BD32B0 = {
 						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = 1156D2811C735248009571EE;
+						TestTargetID = 11B8258E1C73530A00BD32B0;
 					};
 				};
 			};
-			buildConfigurationList = 1156D27D1C735248009571EE /* Build configuration list for PBXProject "SwiftMaze" */;
+			buildConfigurationList = 11B8258A1C73530A00BD32B0 /* Build configuration list for PBXProject "SwiftMaze" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -215,38 +219,38 @@
 				en,
 				Base,
 			);
-			mainGroup = 1156D2791C735248009571EE;
-			productRefGroup = 1156D2831C735248009571EE /* Products */;
+			mainGroup = 11B825861C73530A00BD32B0;
+			productRefGroup = 11B825901C73530A00BD32B0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1156D2811C735248009571EE /* SwiftMaze */,
-				1156D2971C735249009571EE /* SwiftMazeTests */,
-				1156D2A21C735249009571EE /* SwiftMazeUITests */,
+				11B8258E1C73530A00BD32B0 /* SwiftMaze */,
+				11B825A41C73530B00BD32B0 /* SwiftMazeTests */,
+				11B825AF1C73530B00BD32B0 /* SwiftMazeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1156D2801C735248009571EE /* Resources */ = {
+		11B8258D1C73530A00BD32B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1156D2881C735248009571EE /* art.scnassets in Resources */,
-				1156D2921C735248009571EE /* LaunchScreen.storyboard in Resources */,
-				1156D28F1C735248009571EE /* Assets.xcassets in Resources */,
-				1156D28D1C735248009571EE /* Main.storyboard in Resources */,
+				11B8259F1C73530B00BD32B0 /* LaunchScreen.storyboard in Resources */,
+				11B825CD1C735AD900BD32B0 /* MazeScene.sks in Resources */,
+				11B8259C1C73530B00BD32B0 /* Assets.xcassets in Resources */,
+				11B8259A1C73530B00BD32B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1156D2961C735249009571EE /* Resources */ = {
+		11B825A31C73530B00BD32B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1156D2A11C735249009571EE /* Resources */ = {
+		11B825AE1C73530B00BD32B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,59 +260,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1156D27E1C735248009571EE /* Sources */ = {
+		11B8258B1C73530A00BD32B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1156D28A1C735248009571EE /* GameViewController.swift in Sources */,
-				1156D2861C735248009571EE /* AppDelegate.swift in Sources */,
+				11B825C71C73552100BD32B0 /* MazeScene.swift in Sources */,
+				11B825971C73530A00BD32B0 /* GameViewController.swift in Sources */,
+				11B825931C73530A00BD32B0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1156D2941C735249009571EE /* Sources */ = {
+		11B825A11C73530B00BD32B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1156D29D1C735249009571EE /* SwiftMazeTests.swift in Sources */,
+				11B825AA1C73530B00BD32B0 /* SwiftMazeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1156D29F1C735249009571EE /* Sources */ = {
+		11B825AC1C73530B00BD32B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1156D2A81C735249009571EE /* SwiftMazeUITests.swift in Sources */,
+				11B825B51C73530B00BD32B0 /* SwiftMazeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1156D29A1C735249009571EE /* PBXTargetDependency */ = {
+		11B825A71C73530B00BD32B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1156D2811C735248009571EE /* SwiftMaze */;
-			targetProxy = 1156D2991C735249009571EE /* PBXContainerItemProxy */;
+			target = 11B8258E1C73530A00BD32B0 /* SwiftMaze */;
+			targetProxy = 11B825A61C73530B00BD32B0 /* PBXContainerItemProxy */;
 		};
-		1156D2A51C735249009571EE /* PBXTargetDependency */ = {
+		11B825B21C73530B00BD32B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1156D2811C735248009571EE /* SwiftMaze */;
-			targetProxy = 1156D2A41C735249009571EE /* PBXContainerItemProxy */;
+			target = 11B8258E1C73530A00BD32B0 /* SwiftMaze */;
+			targetProxy = 11B825B11C73530B00BD32B0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1156D28B1C735248009571EE /* Main.storyboard */ = {
+		11B825981C73530B00BD32B0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1156D28C1C735248009571EE /* Base */,
+				11B825991C73530B00BD32B0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1156D2901C735248009571EE /* LaunchScreen.storyboard */ = {
+		11B8259D1C73530B00BD32B0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1156D2911C735248009571EE /* Base */,
+				11B8259E1C73530B00BD32B0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +321,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1156D2AA1C735249009571EE /* Debug */ = {
+		11B825B71C73530B00BD32B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -360,7 +365,7 @@
 			};
 			name = Debug;
 		};
-		1156D2AB1C735249009571EE /* Release */ = {
+		11B825B81C73530B00BD32B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -397,29 +402,35 @@
 			};
 			name = Release;
 		};
-		1156D2AD1C735249009571EE /* Debug */ = {
+		11B825BA1C73530B00BD32B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SwiftMaze/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SmartmongolTeam.SwiftMaze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
-		1156D2AE1C735249009571EE /* Release */ = {
+		11B825BB1C73530B00BD32B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SwiftMaze/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SmartmongolTeam.SwiftMaze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
-		1156D2B01C735249009571EE /* Debug */ = {
+		11B825BD1C73530B00BD32B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -432,7 +443,7 @@
 			};
 			name = Debug;
 		};
-		1156D2B11C735249009571EE /* Release */ = {
+		11B825BE1C73530B00BD32B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -444,7 +455,7 @@
 			};
 			name = Release;
 		};
-		1156D2B31C735249009571EE /* Debug */ = {
+		11B825C01C73530B00BD32B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -457,7 +468,7 @@
 			};
 			name = Debug;
 		};
-		1156D2B41C735249009571EE /* Release */ = {
+		11B825C11C73530B00BD32B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = SwiftMazeUITests/Info.plist;
@@ -472,40 +483,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1156D27D1C735248009571EE /* Build configuration list for PBXProject "SwiftMaze" */ = {
+		11B8258A1C73530A00BD32B0 /* Build configuration list for PBXProject "SwiftMaze" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1156D2AA1C735249009571EE /* Debug */,
-				1156D2AB1C735249009571EE /* Release */,
+				11B825B71C73530B00BD32B0 /* Debug */,
+				11B825B81C73530B00BD32B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1156D2AC1C735249009571EE /* Build configuration list for PBXNativeTarget "SwiftMaze" */ = {
+		11B825B91C73530B00BD32B0 /* Build configuration list for PBXNativeTarget "SwiftMaze" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1156D2AD1C735249009571EE /* Debug */,
-				1156D2AE1C735249009571EE /* Release */,
+				11B825BA1C73530B00BD32B0 /* Debug */,
+				11B825BB1C73530B00BD32B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		1156D2AF1C735249009571EE /* Build configuration list for PBXNativeTarget "SwiftMazeTests" */ = {
+		11B825BC1C73530B00BD32B0 /* Build configuration list for PBXNativeTarget "SwiftMazeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1156D2B01C735249009571EE /* Debug */,
-				1156D2B11C735249009571EE /* Release */,
+				11B825BD1C73530B00BD32B0 /* Debug */,
+				11B825BE1C73530B00BD32B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		1156D2B21C735249009571EE /* Build configuration list for PBXNativeTarget "SwiftMazeUITests" */ = {
+		11B825BF1C73530B00BD32B0 /* Build configuration list for PBXNativeTarget "SwiftMazeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1156D2B31C735249009571EE /* Debug */,
-				1156D2B41C735249009571EE /* Release */,
+				11B825C01C73530B00BD32B0 /* Debug */,
+				11B825C11C73530B00BD32B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1156D27A1C735248009571EE /* Project object */;
+	rootObject = 11B825871C73530A00BD32B0 /* Project object */;
 }

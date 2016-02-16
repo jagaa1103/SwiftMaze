@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1156D2811C735248009571EE"
+               BlueprintIdentifier = "11B8258E1C73530A00BD32B0"
                BuildableName = "SwiftMaze.app"
                BlueprintName = "SwiftMaze"
                ReferencedContainer = "container:SwiftMaze.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1156D2971C735249009571EE"
+               BlueprintIdentifier = "11B825A41C73530B00BD32B0"
                BuildableName = "SwiftMazeTests.xctest"
                BlueprintName = "SwiftMazeTests"
                ReferencedContainer = "container:SwiftMaze.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1156D2A21C735249009571EE"
+               BlueprintIdentifier = "11B825AF1C73530B00BD32B0"
                BuildableName = "SwiftMazeUITests.xctest"
                BlueprintName = "SwiftMazeUITests"
                ReferencedContainer = "container:SwiftMaze.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1156D2811C735248009571EE"
+            BlueprintIdentifier = "11B8258E1C73530A00BD32B0"
             BuildableName = "SwiftMaze.app"
             BlueprintName = "SwiftMaze"
             ReferencedContainer = "container:SwiftMaze.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1156D2811C735248009571EE"
+            BlueprintIdentifier = "11B8258E1C73530A00BD32B0"
             BuildableName = "SwiftMaze.app"
             BlueprintName = "SwiftMaze"
             ReferencedContainer = "container:SwiftMaze.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1156D2811C735248009571EE"
+            BlueprintIdentifier = "11B8258E1C73530A00BD32B0"
             BuildableName = "SwiftMaze.app"
             BlueprintName = "SwiftMaze"
             ReferencedContainer = "container:SwiftMaze.xcodeproj">
