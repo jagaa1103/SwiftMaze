@@ -14,7 +14,6 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // create a new scene
         if let scene = MazeScene(fileNamed: "MazeScene") {
             let skView = self.view as! SKView
             skView.showsFPS = true
@@ -41,7 +40,6 @@ class GameViewController: UIViewController {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Release any cached data, images, etc that aren't in use.
     }
     
     override func prefersStatusBarHidden() -> Bool {

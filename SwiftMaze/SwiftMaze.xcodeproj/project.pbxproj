@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1122B9131C736E70009D667A /* soccer_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 1122B9121C736E70009D667A /* soccer_ball.png */; };
 		11B825931C73530A00BD32B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B825921C73530A00BD32B0 /* AppDelegate.swift */; };
 		11B825971C73530A00BD32B0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B825961C73530A00BD32B0 /* GameViewController.swift */; };
 		11B8259A1C73530B00BD32B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B825981C73530B00BD32B0 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 		11B825B51C73530B00BD32B0 /* SwiftMazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B825B41C73530B00BD32B0 /* SwiftMazeUITests.swift */; };
 		11B825C71C73552100BD32B0 /* MazeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B825C61C73552100BD32B0 /* MazeScene.swift */; };
 		11B825CD1C735AD900BD32B0 /* MazeScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 11B825CC1C735AD900BD32B0 /* MazeScene.sks */; };
+		11B825CF1C73688200BD32B0 /* glass_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B825CE1C73688200BD32B0 /* glass_ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1122B9121C736E70009D667A /* soccer_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soccer_ball.png; sourceTree = "<group>"; };
 		11B8258F1C73530A00BD32B0 /* SwiftMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B825921C73530A00BD32B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11B825961C73530A00BD32B0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		11B825B61C73530B00BD32B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11B825C61C73552100BD32B0 /* MazeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MazeScene.swift; sourceTree = "<group>"; };
 		11B825CC1C735AD900BD32B0 /* MazeScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MazeScene.sks; sourceTree = "<group>"; };
+		11B825CE1C73688200BD32B0 /* glass_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glass_ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				11B825A01C73530B00BD32B0 /* Info.plist */,
 				11B825C61C73552100BD32B0 /* MazeScene.swift */,
 				11B825CC1C735AD900BD32B0 /* MazeScene.sks */,
+				11B825CE1C73688200BD32B0 /* glass_ball.png */,
+				1122B9121C736E70009D667A /* soccer_ball.png */,
 			);
 			path = SwiftMaze;
 			sourceTree = "<group>";
@@ -240,6 +246,8 @@
 				11B825CD1C735AD900BD32B0 /* MazeScene.sks in Resources */,
 				11B8259C1C73530B00BD32B0 /* Assets.xcassets in Resources */,
 				11B8259A1C73530B00BD32B0 /* Main.storyboard in Resources */,
+				11B825CF1C73688200BD32B0 /* glass_ball.png in Resources */,
+				1122B9131C736E70009D667A /* soccer_ball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +507,7 @@
 				11B825BB1C73530B00BD32B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11B825BC1C73530B00BD32B0 /* Build configuration list for PBXNativeTarget "SwiftMazeTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +516,7 @@
 				11B825BE1C73530B00BD32B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11B825BF1C73530B00BD32B0 /* Build configuration list for PBXNativeTarget "SwiftMazeUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +525,7 @@
 				11B825C11C73530B00BD32B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

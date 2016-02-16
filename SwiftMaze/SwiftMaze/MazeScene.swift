@@ -13,7 +13,7 @@ import CoreMotion
 class MazeScene: SKScene, SKPhysicsContactDelegate{
     
     let manager = CMMotionManager()
-    var player = SKSpriteNode()
+    var ball = SKSpriteNode()
     var endNode = SKSpriteNode()
     
     override func didMoveToView(view: SKView) {
@@ -21,7 +21,7 @@ class MazeScene: SKScene, SKPhysicsContactDelegate{
         
         self.physicsWorld.contactDelegate = self
         
-        player = self.childNodeWithName("player") as! SKSpriteNode
+        ball = self.childNodeWithName("ball") as! SKSpriteNode
         
         manager.startAccelerometerUpdates()
         manager.accelerometerUpdateInterval = 0.1
@@ -32,10 +32,5 @@ class MazeScene: SKScene, SKPhysicsContactDelegate{
             
         }
         
-    }
-    
-    
-    override func update(currentTime: CFTimeInterval) {
-        /* Called before each frame is rendered */
     }
 }
